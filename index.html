@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<script>
+function variable(url)
+   {   
+   window.location=url; 
+   } 
+   function LienAuHasard() 
+   {   
+   var a;   
+   a = Math.round(Math.random()*100);   
+   if ((a>=0)&&(a<15))     
+   variable("https://www.google.com");   
+   if ((a>=15)&&(a<50))     
+   variable("https://www.instagram.com");   
+   if ((a>=50)&&(a<70))     
+   variable("https://www.lichess.org");   
+   if ((a>=70)&&(a<100))     
+   variable("https://www.facebook.com");
+   }
+</script>
+
+<script type="text/javascript">LienAuHasard();</script>
